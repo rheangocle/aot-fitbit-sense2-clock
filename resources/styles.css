@@ -1,0 +1,98 @@
+.background {
+  viewport-fill: red;
+}
+
+.text-length{
+  text-length: 32;
+}
+
+#clock-label {
+  font-size: 35;
+  font-family: System-Bold;
+  text-anchor: middle;
+  x: 75%;
+  y: 15%;
+  fill: white;
+}
+
+.white-text {
+  font-size: 25;
+  font-family: System-Bold;
+  fill: white;
+}
+
+.date-position {
+  x: 15%;
+  y: 15%
+}
+
+.day-position {
+  x: 15%;
+  y: 15%+30;
+}
+
+#myBattery {
+  font-size:20;
+  font-family: System-Bold ;
+  text-length: 32;
+  text-anchor: middle;
+  x: 20%+10;
+  y: 87%;
+}
+
+#batteryIMG {
+  x: 0;
+  y:55%;
+  width: 45%;
+  height: 45%;
+}
+
+#txtHRM {
+  font-size:20;
+  font-family: System-Bold ;
+  text-length: 32;
+  x: 80%+6;
+  y: 87%;
+}
+
+#heartIMG {
+  x: 65%+10;
+  y:60%;
+  width: 35%;
+  height: 35%;
+}
+
+#stepsCount {
+  font-size:15;
+  font-family: System-Bold;
+  x: 7%;
+  y:60%;
+}
+#stepsImg {
+  x: -10%;
+  y:25%+10;
+  width: 45%;
+  height: 45%;
+}
+
+#titan {
+  y:-15;
+  max-width: auto;
+  height: 115%;
+  /* Start the shake animation and make the animation last for 0.5 seconds
+  animation: shake 0.5s; */
+}
+
+/* @keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+} */

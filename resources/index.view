@@ -1,0 +1,16 @@
+<svg class="background">
+  <image id="background" href="./resources/bgs/aot_main.png"/>
+  <image id="titan" href="./resources/titans/jaw-titan.png"/>
+  <text id="myBattery"></text>
+  <image id="batteryIMG"/>
+   
+ <text id="stepsCount" class="text-length white-text"></text>
+  <image id="stepsImg"/>
+
+   <image id="heartIMG" />
+    <text id="txtHRM" class="text-length" />
+
+  <text class="white-text text-length" id="clock-label" />
+  <text class="date-position white-text text-length" id="date-label" />
+  <text class="day-position white-text text-length" id="day-label"/>
+</svg>
